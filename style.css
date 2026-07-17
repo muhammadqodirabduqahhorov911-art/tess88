@@ -1,0 +1,98 @@
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img1{
+    width: 50px;
+    height: 50px;
+
+}
+.h2{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.h2:hover{
+    color: green;
+}
+.img2{
+    width: 20px;
+    height: 20px;
+}
+
+
+.container{
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-weight: bolder;
+}
+.text1:hover{
+    color: green;
+}
+.img2:hover{
+    color: green;
+}
+.btn1{
+    background-color: white;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding: 6px 15px;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+    transform: scale(1.01);
+
+}
+.btn2{
+    background-color: black;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 8px 13px;
+    border-radius: 15px;
+    color: white;
+}
+.btn2:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+
+}
+.container2{
+    height: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: lightgray;
+}
